@@ -6,6 +6,7 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
+
 let products = [
   { _id: '1', name: 'Nike Air Force 1', price: 430, category: 'Nike', stock: 15, image: '🔴', status: 'active' },
   { _id: '2', name: 'Off-White Sneakers', price: 360, category: 'Off-White', stock: 8, image: '⚪', status: 'active' },

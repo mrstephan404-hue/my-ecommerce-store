@@ -369,8 +369,8 @@ app.get('/', (req, res) => {
   });
 });
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`📍 API URL: http://localhost:${PORT}`);
+  console.log(` Server running on port ${PORT}`);
+  console.log(` API URL: http://localhost:${PORT}`);
 });
 
 module.exports = app;
